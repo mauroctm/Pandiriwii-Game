@@ -99,7 +99,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1431572244884946}
   m_LocalRotation: {x: 0, y: 0.7241719, z: 0, w: 0.6896196}
-  m_LocalPosition: {x: 219.1, y: 0.05, z: 73.3}
+  m_LocalPosition: {x: 225.91, y: 0.05, z: 87.67}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4503573461712080}
@@ -115,52 +115,52 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1544008440880640}
-  m_LocalRotation: {x: 0.46483457, y: -0.5328497, z: 0.5328497, w: 0.46483457}
+  m_LocalRotation: {x: 0.45033, y: -0.7070164, z: 0.5158293, w: 0.1767789}
   m_LocalPosition: {x: 0.5658333, y: 7.1239996, z: -0.51498145}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4235343200610984}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 90, y: 65, z: 70}
+  m_LocalEulerAnglesHint: {x: 117.3, y: -27.9, z: 97.8}
 --- !u!4 &4503573461712080
 Transform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1723039996293778}
-  m_LocalRotation: {x: 0.46483457, y: -0.5328497, z: 0.5328497, w: 0.46483457}
+  m_LocalRotation: {x: 0.57931197, y: -0.515116, z: 0.30369693, w: 0.55391467}
   m_LocalPosition: {x: -1.4297827, y: 7.1239996, z: -0.61258346}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4235343200610984}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 90, y: 65, z: 70}
+  m_LocalEulerAnglesHint: {x: 107.32, y: 47.3, z: 119}
 --- !u!4 &4514692995426262
 Transform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1606157521416462}
-  m_LocalRotation: {x: 0.4601669, y: -0.53688586, z: 0.53688586, w: 0.4601669}
+  m_LocalRotation: {x: 0.5341557, y: -0.62321025, z: 0.4337073, w: 0.37173206}
   m_LocalPosition: {x: -0.5128717, y: 7.1239996, z: -0.567739}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4235343200610984}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 90, y: 65, z: 71}
+  m_LocalEulerAnglesHint: {x: 110.33, y: 0, z: 98.8}
 --- !u!4 &4997182864892562
 Transform:
   m_ObjectHideFlags: 1
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1831570065151704}
-  m_LocalRotation: {x: 0.46483457, y: -0.5328497, z: 0.5328497, w: 0.46483457}
+  m_LocalRotation: {x: 0.24296203, y: -0.7242475, z: 0.6452971, w: -0.00516969}
   m_LocalPosition: {x: 1.4847407, y: 7.1239996, z: -0.47003937}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4235343200610984}
   m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 90, y: 65, z: 70}
+  m_LocalEulerAnglesHint: {x: 111.22, y: -62.5, z: 97.8}
 --- !u!23 &23364793689766108
 MeshRenderer:
   m_ObjectHideFlags: 1
@@ -220,7 +220,7 @@ Light:
   m_SpotAngle: 13.532078
   m_CookieSize: 10
   m_Shadows:
-    m_Type: 0
+    m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
     m_Strength: 1
@@ -228,13 +228,13 @@ Light:
     m_NormalBias: 0.4
     m_NearPlane: 0.2
   m_Cookie: {fileID: 0}
-  m_DrawHalo: 0
+  m_DrawHalo: 1
   m_Flare: {fileID: 0}
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1.5
@@ -265,13 +265,13 @@ Light:
     m_NormalBias: 0.4
     m_NearPlane: 0.2
   m_Cookie: {fileID: 0}
-  m_DrawHalo: 0
+  m_DrawHalo: 1
   m_Flare: {fileID: 0}
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1.5
@@ -290,8 +290,8 @@ Light:
   m_Type: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1.2
-  m_Range: 7.2408338
-  m_SpotAngle: 20.512653
+  m_Range: 8.154883
+  m_SpotAngle: 16
   m_CookieSize: 10
   m_Shadows:
     m_Type: 0
@@ -302,13 +302,13 @@ Light:
     m_NormalBias: 0.4
     m_NearPlane: 0.2
   m_Cookie: {fileID: 0}
-  m_DrawHalo: 0
+  m_DrawHalo: 1
   m_Flare: {fileID: 0}
   m_RenderMode: 0
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1.5
@@ -345,7 +345,7 @@ Light:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_Lightmapping: 4
+  m_Lightmapping: 2
   m_LightShadowCasterMode: 0
   m_AreaSize: {x: 1, y: 1}
   m_BounceIntensity: 1.5
